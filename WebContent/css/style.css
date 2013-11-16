@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS Example 8.8.2
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+ body
+{
+background-color: #3a92c8;
+background: -webkit-radial-gradient(circle,#94d2f8,#3a92c8);
+background: -moz-radial-gradient(circle,#94d2f8,#3a92c8);
+background: -ms-radial-gradient(circle,#94d2f8,#3a92c8);
+}
+
+#droparea{
+	width:60%;
+	height:200px;
+	border:7px dashed #fff;
+	border-radius:10px;
+	vertical-align:baseline;
+	margin:0 auto;
+	text-align:center;
+	text-shadow:1px 1px 0 #fff;
+}
+
+#adaptableDroparea{
+	border:7px dashed #fff;
+	border-radius:10px;
+	vertical-align:baseline;
+	margin:0 auto;
+	text-align:center;
+	text-shadow:1px 1px 0 #fff;
+}

@@ -1,0 +1,62 @@
+package Tests;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import DBManagement.CRUD;
+import beans.Album;
+import beans.Contient;
+import beans.Photo;
+import beans.Utilisateur;
+
+public class DummyTest {
+	public static void main(String[] args) {
+		CRUD crud = new CRUD();
+		/*
+		 Utilisateur u = new Utilisateur(new Integer(1),
+		 "a.sadecki@gmail.com", "dupa123", new Boolean(false), "Aleksander",
+		 "Sadecki", "Amblard", "54", "France", "Valence", "26000");
+		 crud.addUtilisateur(u);
+		 
+
+		
+		 Photo p = new Photo(new Integer(1), new Integer(1), "img/dump.jpg",
+		 "big camera", "lala", "tres cher", "hout", "asd", "12x32");
+		 crud.addPhoto(p);
+		 
+
+		
+		Album a = new Album(new Integer(1), new Integer(1), "dupa", "subdupa",
+				new Boolean(true));
+		crud.addAlbum(a);
+		
+		
+		
+		Contient c = new Contient(new Integer(1), new Integer(1), "aaa", "bbb", new Integer(7));
+		crud.addContient(c);*/
+		
+		
+		
+		/*
+		Book b = new Book(new Integer(1), new Integer(1), new Integer(1), "lalala", "blree", new Boolean(true));
+		crud.addBook(b);
+		*/
+		
+		/*
+		Format f = new Format(new Integer(1), "asdf", new Integer(5));
+		crud.addFormat(f);
+		*/
+		
+		/*
+		SimpleOrder so = new SimpleOrder(new Integer(1), new Integer(1), new Integer(1), new Integer(4), new Boolean(false));
+		crud.addSimpleOrder(so);
+		*/
+		
+		/*
+		@SuppressWarnings("deprecation")
+		ComplexOrder co = new ComplexOrder(new Integer(1), new Integer(1), new Date(2012, 7, 8), new Integer(76), "aaaaaaa", "aaaaaaa", "aaaaaaa", "aaaaaaa", new Integer(6456), "aaaaaaa", "aaaaaaa", "aaaaaaa", "aaaaaaa", new Integer(32));
+		crud.addComplexOrder(co);
+		*/
+	}
+}
